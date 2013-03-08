@@ -4,7 +4,7 @@ res = solve('Eq(F, m*a)', 'a')
 print res
 
 
-res = solve('Eq(X, 1/2*a*t**2)', 't')
+res = solve(sympify('Eq(X, 1/2*a*t**2)', locals={'E': Symbol('E')}), 't')
 print res
 
 res = solve(sympify('Eq(U, I*R)', locals={'I': Symbol('I')}), 'R')
