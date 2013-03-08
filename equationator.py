@@ -1,4 +1,4 @@
-from sympy import solve
+from sympy import solve, Symbol, sympify
 
 res = solve('Eq(F, m*a)', 'a')
 print res
@@ -7,7 +7,7 @@ print res
 res = solve('Eq(X, 1/2*a*t**2)', 't')
 print res
 
-res = solve('Eq(U, X*R)', 'R')
+res = solve(sympify('Eq(U, I*R)', locals={'I': Symbol('I')}), 'R')
 print res
 
 # Sympy treats e, i and other important characters differently. We need to do
