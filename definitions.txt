@@ -1,0 +1,13 @@
+F force
+m mass
+a acceleration
+v velocity
+t time
+p momentum
+E_k kinetic energy
+W work
+s distance
+P power
+U voltage
+I current
+R resistance
