@@ -2,7 +2,7 @@ F = m*a
 a = v/t
 v = s/t
 p = m*v
-E = m*v*v/2
+E_k = m*v*v/2
 W = F*s
 P = W/t
 
